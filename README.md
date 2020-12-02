@@ -17,3 +17,5 @@ Contact : [ArnauldDev](biganzol@insa-toulouse.fr)
 ArduinoSerialEventDemo
 
 ### KiCad - Shield for Arduino
+
+- [ ] Créer un projet de PCB pour réaliser une shield Arduino
