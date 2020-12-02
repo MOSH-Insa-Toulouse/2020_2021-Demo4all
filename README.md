@@ -11,7 +11,6 @@ Contact : [ArnauldDev](biganzol@insa-toulouse.fr)
 - [x] Créer une nouvelle branche
 - [x] Basculer sur cette branche
 
-
 ---
 
 ## 2020_2021-Demo4all
@@ -19,6 +18,28 @@ Contact : [ArnauldDev](biganzol@insa-toulouse.fr)
 ### Arduino Project
 
 ArduinoSerialEventDemo
+
+```C++
+// print the string when a newline arrives:
+if (stringComplete)
+{
+    Serial.println(); // faire un saut de ligne entre les réponses
+    Serial.print("Vous avez repondu ");
+    Serial.println(inputString);
+    // test de la réponse du joueur
+    if (inputString == "kicad")
+    {
+        Serial.println("Go for a new PCB board!");
+    }
+    else
+    {
+        Serial.println("C'est pas tout a fait ca...");
+    }
+    // clear the string:
+    inputString = "";
+    stringComplete = false;
+}
+```
 
 ### KiCad - Shield for Arduino
 
@@ -32,6 +53,8 @@ ArduinoSerialEventDemo
 - [x] Conception de la carte électronique
 - [x] Importation de la netlist
 - [x] Placement des composants
+- [x] Définir les contraintes de conception de la carte électronique ([stackup](https://www.emsproto.com/fr/standard-multi-layer-pcb-stackup))
+- [ ] Router les pistes de la carte électronique
 
 #### KiCad Tools used
 
@@ -50,4 +73,6 @@ Open source EDA / electronics CAD software for Windows, macOS and Linux.
 
 ## Component placement
 
-![Place components](Images/place-components.png)
+<!-- ![Place components](Images/place-components.png) -->
+
+<img src="Images/place-components.png" width="300">
