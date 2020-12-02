@@ -10,15 +10,7 @@ Contact : [ArnauldDev](biganzol@insa-toulouse.fr)
 - [x] Pousser le ou les commit vers le serveur
 - [x] Créer une nouvelle branche
 - [x] Basculer sur cette branche
-- [x] Concevoir une carte avec KiCad
-- [x] Saisi du schéma
-- [x] Vérification des tests électriques **ERC**
-- [x] Association des empreintes de composants avec leur boitier
-- [x] Génération de la netlist
-- [x] Conception de la carte électronique
-- [x] Importation de la netlist
-- [x] Placement des composants
-- [ ] 
+
 
 ---
 
@@ -30,7 +22,16 @@ ArduinoSerialEventDemo
 
 ### KiCad - Shield for Arduino
 
-- [ ] Créer un projet de PCB pour réaliser une shield Arduino
+#### TODO Concevoir une carte avec KiCad
+
+- [x] Créer un projet de PCB pour réaliser une shield Arduino
+- [x] Saisi du schéma
+- [x] Vérification des tests électriques **ERC**
+- [x] Association des empreintes de composants avec leur boitier
+- [x] Génération de la netlist
+- [x] Conception de la carte électronique
+- [x] Importation de la netlist
+- [x] Placement des composants
 
 #### KiCad Tools used
 
@@ -46,3 +47,7 @@ Open source EDA / electronics CAD software for Windows, macOS and Linux.
 #### Electrical diagram
 
 ![Schematic](Images/schematic.png)
+
+## Component placement
+
+![Place components](Images/place-components.png)
