@@ -10,7 +10,15 @@ Contact : [ArnauldDev](biganzol@insa-toulouse.fr)
 - [x] Pousser le ou les commit vers le serveur
 - [x] Créer une nouvelle branche
 - [x] Basculer sur cette branche
-- [ ] Concevoir une carte avec KiCad
+- [x] Concevoir une carte avec KiCad
+- [x] Saisi du schéma
+- [x] Vérification des tests électriques **ERC**
+- [x] Association des empreintes de composants avec leur boitier
+- [x] Génération de la netlist
+- [x] Conception de la carte électronique
+- [x] Importation de la netlist
+- [x] Placement des composants
+- [ ] 
 
 ---
 
