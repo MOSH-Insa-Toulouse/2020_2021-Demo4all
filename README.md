@@ -54,7 +54,7 @@ if (stringComplete)
 - [x] Importation de la netlist
 - [x] Placement des composants
 - [x] Définir les contraintes de conception de la carte électronique ([stackup](https://www.emsproto.com/fr/standard-multi-layer-pcb-stackup))
-- [ ] Router les pistes de la carte électronique
+- [x] Router les pistes de la carte électronique
 
 #### KiCad Tools used
 
@@ -76,3 +76,7 @@ Open source EDA / electronics CAD software for Windows, macOS and Linux.
 <!-- ![Place components](Images/place-components.png) -->
 
 <img src="Images/place-components.png" width="300">
+
+## Routage
+
+![Vue 3D](Images/3d_view.png)

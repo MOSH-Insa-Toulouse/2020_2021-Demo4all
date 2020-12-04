@@ -9,6 +9,7 @@
 
   NOTE: The serialEvent() feature is not available on the Leonardo, Micro, or
   other ATmega32U4 based boards.
+  And also on Arduino MKR Zero
 
   created 9 May 2011
   by Tom Igoe
@@ -52,18 +53,19 @@ void loop()
     // print the string when a newline arrives:
     if (stringComplete)
     {
-        Serial.println(); // faire un saut de ligne entre les réponses
-        Serial.print("Vous avez repondu ");
+        //Serial.println(); // faire un saut de ligne entre les réponses
+        Serial.print("Vous avez repondu : ");
         Serial.println(inputString);
 
         // test de la réponse du joueur
         if (inputString == "kicad")
         {
-            Serial.println("Go for a new PCB board!");
+            //Serial.println("Go for a new PCB board!");
+            Serial.println("111");
         }
         else
         {
-            Serial.println("C'est pas tout a fait ca...");
+            Serial.println("000");
         }
 
         // clear the string:

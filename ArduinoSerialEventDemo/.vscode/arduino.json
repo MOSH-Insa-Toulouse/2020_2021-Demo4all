@@ -1,0 +1,5 @@
+{
+    "board": "arduino:samd:mkrzero",
+    "sketch": "ArduinoSerialEventDemo.ino",
+    "port": "COM3"
+}
