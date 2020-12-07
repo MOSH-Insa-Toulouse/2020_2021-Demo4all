@@ -437,8 +437,6 @@ Text Label 7700 1900 0    50   ~ 0
 LED3
 Text Label 7700 2000 0    50   ~ 0
 LED4
-Text Label 10550 1700 0    50   ~ 0
-LED1
 Text Label 10550 1800 0    50   ~ 0
 LED2
 Text Label 10550 1900 0    50   ~ 0
@@ -533,4 +531,6 @@ NoConn ~ 10550 1200
 NoConn ~ 10550 1300
 NoConn ~ 8900 2900
 NoConn ~ 8900 3000
+Text Label 10550 1700 0    50   ~ 0
+LED1
 $EndSCHEMATC

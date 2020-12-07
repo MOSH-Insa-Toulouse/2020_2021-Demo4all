@@ -533,4 +533,31 @@ NoConn ~ 8900 2900
 NoConn ~ 8900 3000
 Text Label 10550 1700 0    50   ~ 0
 LED1
+$Comp
+L rtrim:GSensor R5
+U 1 1 5FCF252C
+P 4050 2400
+F 0 "R5" H 4050 2865 50  0000 C CNN
+F 1 "GSensor" H 4050 2774 50  0000 C CNN
+F 2 "" H 4050 2620 50  0001 C CNN
+F 3 "~" V 4050 2550 50  0001 C CNN
+	1    4050 2400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4250 2550 4550 2550
+Wire Wire Line
+	3850 2550 3550 2550
+Wire Wire Line
+	4250 2250 4550 2250
+Wire Wire Line
+	3850 2250 3550 2250
+Text Label 3550 2250 2    50   ~ 0
+LED1
+Text Label 4550 2250 0    50   ~ 0
+LED2
+Text Label 3550 2550 2    50   ~ 0
+LED3
+Text Label 4550 2550 0    50   ~ 0
+LED4
 $EndSCHEMATC
