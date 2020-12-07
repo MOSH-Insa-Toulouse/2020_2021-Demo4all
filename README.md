@@ -88,16 +88,16 @@ Et une empreinte :
 
 ![Schematic](Images/schematic.png)
 
-## Component placement
+## PCB
+
+| Component placement                                 | Routage                                    |
+| --------------------------------------------------- | ------------------------------------------ |
+| <img src="Images/place-components.png" width="500"> | <img src="Images/3d_view.png" width="500"> |
 
 <!-- ![Place components](Images/place-components.png) -->
 
-<img src="Images/place-components.png" width="300">
-
-## Routage
-
-![Vue 3D](Images/3d_view.png)
+<!-- ![Vue 3D](Images/3d_view.png) -->
 
 ### Vue 3D
 
-![3D View](Images/3d_view.png)
+![3D View](Images/GazSensor.png)
