@@ -67,6 +67,23 @@ Open source EDA / electronics CAD software for Windows, macOS and Linux.
 * LED_THT:LED_D5.0mm
 * Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal
 
+Lien vers les librairies officielles
+
+https://gitlab.com/kicad/libraries
+
+##### Créer de nouveaux composants
+
+Avec un schéma :
+
+\library
+*.dcm
+*.lib
+
+Et une empreinte :
+
+\Footprints\MyPackage.pretty
+-.kicad_mod
+
 #### Electrical diagram
 
 ![Schematic](Images/schematic.png)
@@ -80,3 +97,7 @@ Open source EDA / electronics CAD software for Windows, macOS and Linux.
 ## Routage
 
 ![Vue 3D](Images/3d_view.png)
+
+### Vue 3D
+
+![3D View](Images/3d_view.png)
