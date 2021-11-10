@@ -58,7 +58,7 @@ if (stringComplete)
 
 #### KiCad Tools used
 
-[KiCad EDA - Schematic Capture & PCB Design Software](https://kicad-pcb.org/), version: 5.1.8
+[KiCad EDA - Schematic Capture & PCB Design Software](https://kicad.org/), version: 5.1.8
 
 Open source EDA / electronics CAD software for Windows, macOS and Linux.
 
